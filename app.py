@@ -15,7 +15,7 @@ from lime.lime_tabular import LimeTabularExplainer
 # 1. LOAD TRAINED MODEL
 # -----------------------------
 
-BUNDLE_PATH = "/content/student_xai_bundle.joblib"
+BUNDLE_PATH = "student_xai_bundle.joblib"
 
 bundle = joblib.load(BUNDLE_PATH)
 
